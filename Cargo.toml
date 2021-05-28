@@ -1,0 +1,14 @@
+[package]
+name = "disabled_contracts"
+version = "0.1.0"
+authors = ["Paul Khuong <pkhuong@backtrace.io>"]
+license = "MIT"
+description = "A clearly stub version of the `contracts` crate."
+repository = "https://github.com/backtrace-labs/disabled_contracts"
+readme = "README.md"
+edition = "2018"
+categories = ["development-tools", "development-tools::procedural-macro-helpers"]
+keywords = ["design-by-contract", "precondition", "postcondition", "invariant", "verification"]
+
+[lib]
+proc-macro = true
